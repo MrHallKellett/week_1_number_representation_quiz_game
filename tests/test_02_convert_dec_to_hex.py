@@ -6,4 +6,4 @@ for _ in range(10):
 
     num = randint(1, 1000)
 
-    assert convert_dec_to_hex(num) = hex(num)[2:].upper()
+    assert convert_dec_to_hex(num) == hex(num)[2:].upper()
