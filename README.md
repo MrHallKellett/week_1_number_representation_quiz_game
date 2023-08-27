@@ -105,28 +105,43 @@ If the `signed` parameter is set to `True`, the function will convert using the 
 
 #### Task 8
 
-Program a function named `convert_asc_to_string()` that takes a list of decimal numbers (list) as a parameter and converts it into a word using ASCII.
+Program a function named `add_binary()` that takes two binary string values as its parameters.
 
-You can use the built-in functions `ord()` and `chr()` for this task.
-	
-	> convert_asc_to_string([65, 66, 67, 68])
-	"ABCD"
-	
----
+It should perform binary addition on the two values and return a string representing the answer.
 
 
-
-#### Task 9
-
-Program a function named `convert_string_to_asc()` that takes a string as a parameter and converts it into a string of its corresponding ASCII binary codes (each code should be 7 bits).
-	
-	> convert_chr_to_asc("Hello")
-	'10010001100101110110011011001101111'
+	> add_binary("111", "101)
+	"1100"
 	
 ---
+
 
 
 #### Task 10
+
+Program a function named `multiply_binary()` that takes two binary string values as its parameters.
+
+It should perform binary multiplication on the two values and return a string representing the answer.
+
+
+	> multiply_binary("1100", "1001)
+	"1101100"
+	
+---
+
+#### Task 11
+
+Program a function named `subtract_binary()` that takes two binary string values as its parameters.
+
+It should subtract the second binary value from the first and return a string representing the answer (two's complement).
+
+
+	> subtract_binary("01001", "01110)
+	"10101"
+	
+
+
+#### Task 12
 
 Implement data validation in your functions so that they reject numbers that are not acceptable  (at this stage - printing a message is fine). E.g:
 	
@@ -136,7 +151,7 @@ Implement data validation in your functions so that they reject numbers that are
 	
 ---
 
-#### Task 11
+#### Task 13
 
 Program a generalised function named `convert_number_base()` that takes accepts three parameters: `number_to_convert`, `start_base,` `end_base`. The function should convert the number given from the given starting base to the given ending base. The minimum base that can be converted is base-2 (binary) and the maximum base is base-10 (decimal).
 	
