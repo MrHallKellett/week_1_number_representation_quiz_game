@@ -105,7 +105,7 @@ If the `signed` parameter is set to `True`, the function will convert using the 
 
 #### Task 8
 
-Program a function named `convert_asc_to_string()` that takes a list of decimal numbers (list) as a parameter and convert it into a word using ASCII.
+Program a function named `convert_asc_to_string()` that takes a list of decimal numbers (list) as a parameter and converts it into a word using ASCII.
 
 You can use the built-in functions `ord()` and `chr()` for this task.
 	
