@@ -143,7 +143,7 @@ It should subtract the second binary value from the first and return a string re
 
 #### Task 10
 
-Implement error checking in your functions so that they reject numbers that are not acceptable, if this happens, `raise` an `Exception` with an appropriate message. E.g:
+Implement error checking in your functions so that they reject numbers that are not acceptable, if this happens, `raise` a `ValueError` with an appropriate message. E.g:
 	
 	convert_bin_to_dec("123456")
 	ERROR!
@@ -203,13 +203,11 @@ Program a number representation quiz in Python that has the following features:
 
 - Convert the binary number 101101 to hexadecimal.
 
-- Convert the decimal value 45 into its corresponding Unicode character.
-
-- Convert the Unicode character '-' into its corresponding decimal value.
-
 - Convert the decimal number -45 into a Two's Complement binary number.
 
 - Convert the two's complement binary number 1010011 into a decimal number.
+  
+- Convert the randomly generated base n number into another randomly-selected number base.
 
 
 3\. Gets the user's answer; checks if it is correct; awards a point if so, deducts a point if not.
