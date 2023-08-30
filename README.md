@@ -141,7 +141,7 @@ It should subtract the second binary value from the first and return a string re
 	
 
 
-#### Task 10
+#### Task 9
 
 Implement data validation in your functions so that they reject numbers that are not acceptable  (at this stage - printing a message is fine). E.g:
 	
@@ -151,7 +151,7 @@ Implement data validation in your functions so that they reject numbers that are
 	
 ---
 
-#### Task 11
+#### Task 10
 
 Program a generalised function named `convert_number_base()` that takes accepts three parameters: `number_to_convert`, `start_base,` `end_base`. The function should convert the number given from the given starting base to the given ending base. The minimum base that can be converted is base-2 (binary) and the maximum base is base-10 (decimal).
 	
