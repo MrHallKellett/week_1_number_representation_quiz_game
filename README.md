@@ -1,4 +1,4 @@
-# Week 1: Number Representation Quiz Game
+# Half Term 1: Number Representation Quiz Game
 
 Practical programming tasks for Week 1 (2023-25) of the A Level CS course at Kellett School.
 
@@ -178,6 +178,23 @@ The decimal number 140 is equal to the septal number 260. This is because:
 This web link should help you to understand positional number bases:
 
  [https://www.cs.cas.cz/portal/AlgoMath/NumberTheory/Arithmetics/NumeralSystems/PositionalNumeralSystems/PositionalNumeralSystems.htm#:~:text=Subject%20Index-,Positional%20Numeral%20Systems,set%20of%20symbols%20is%20used.](https://www.cs.cas.cz/portal/AlgoMath/NumberTheory/Arithmetics/NumeralSystems/PositionalNumeralSystems/PositionalNumeralSystems.htm#:~:text=Subject%20Index-,Positional%20Numeral%20Systems,set%20of%20symbols%20is%20used.) 
+
+---
+
+#### Task 12
+
+Program a function named `convert_floating_point()` that accepts two parameters: `mantissa` and `exponent`, both two's complement binary strings.
+
+The function should then calculate the decimal equivalent of the floating point binary number and return this as an integer.
+
+---
+
+#### Task 13
+
+Program a function named `get_floating_point_range()` that accepts two parameters: `mantissa_size` and `exponent_size`.
+
+The function should return the maximum possible value and minimum possible value that is possible to represent using the given mantissa and exponent size (as a tuple containing two ints)
+
 
 ---
 
